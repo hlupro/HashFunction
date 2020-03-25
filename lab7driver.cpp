@@ -8,6 +8,6 @@ int main()
   toHex(x);
   string str = "Test";
   x = hash(hash(str));
-  std::cout << x std::endl;
+  std::cout << x << std::endl;
   return 0;
 }
