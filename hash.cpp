@@ -1,6 +1,6 @@
 #include "hash.h"
 
-size_t hash(size_t a)
+size_t hash(size_t x)
 {
   size_t w = 32;
   size_t p = 13;
