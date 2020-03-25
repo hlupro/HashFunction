@@ -3,4 +3,5 @@
 
 #include <iostream>
 
+size_t hash(size_t);
 #endif
