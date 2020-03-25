@@ -22,7 +22,7 @@ size_t hash(size_t x)
 
 void toHex(size_t x)
 {
-  std::cout << "0x" << std::hex << x << std::endl;
+  std::cout << "0x" << std::hex << x << std::dec << std::endl;
 }
 
 size_t hash(string str)
@@ -34,5 +34,6 @@ size_t hash(string str)
   {
     sum += str[i];
   }
+  cout << sum << endl;
   return hash(sum);
 }
