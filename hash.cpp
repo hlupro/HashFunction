@@ -33,6 +33,7 @@ size_t hash(std::string str)
   {
     std::cout << str[i] << std::endl;
     int h = str[i];
+    std::cout << h << std::endl;
     sum += h;
     std::cout << sum << std::endl;
   }
