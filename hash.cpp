@@ -36,7 +36,7 @@ size_t hash(std::string str)
     std::cout << ch << std::endl;
     int y = int(ch);
     std::cout << "Y" << y << std::endl;
-    x = x + size_t(y);
+    x = x + y;
   }
   std::cout << x << std::endl;
 }
