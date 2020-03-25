@@ -7,7 +7,7 @@ int main()
   cout <<  x << endl;
   //toHex(x);
   string str = "Test";
-  x = hash(hash(str));
+  x = hash(str);
   std::cout << x << std::endl;
   return 0;
 }

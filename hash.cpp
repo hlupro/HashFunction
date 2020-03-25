@@ -27,15 +27,12 @@ void toHex(size_t x)
 
 size_t hash(string str)
 {
-  int sum = 0;
+
+  size_t sum = 0;
   int size = str.length();
   for (int i = 0; i < size; i++)
   {
-    int h = str[i];
-    cout << h << endl;
-    sum = sum + h;
-    cout << sum << endl;
+    sum += str[i];
   }
-  //cout << std::dec << sum << endl;
-  return (size_t)sum;
+  return hash(sum);
 }
