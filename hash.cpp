@@ -29,10 +29,11 @@ size_t hash(std::string str)
 {
   int sum = 0;
   int size = str.length();
-  char ch;
   for (int i = 0; i < size; i++)
   {
-    sum += str[i];
+    int h = str[i];
+    std::cout << h << std::endl;
   }
   std::cout << sum << std::endl;
+  hash(int)
 }
