@@ -22,6 +22,7 @@ size_t hash(size_t x)
 
 void toHex(size_t x)
 {
+  cout << x << "'s hash value in hex is ";
   std::cout << "0x" << std::hex << x << std::dec << std::endl;
 }
 

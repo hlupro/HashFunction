@@ -2,11 +2,29 @@
 
 int main()
 {
+  cout << "=================Lab 7========================= " << endl;
+  cout << "Testing Hash functions" << endl;
+  cout << "Hashing the number 5" << endl;
   size_t x = 5;
-  x = hash(x);
-  cout <<  x << endl;
+  size_t y = hash(x);
+  cout << x <<"'s Hash value is" << y << endl;
   toHex(x);
+  x = 350;
+  y = hash(x);
+  cout << x <<"'s Hash value is" << y << endl;
   string str = "Test";
+  toHex(x);
+  x = 658438232;
+  y = hash(x);
+  cout << x <<"'s Hash value is" << y << endl;
+  string str = "Test";
+  toHex(x);
+  x = 9992939291919;
+  y = hash(x);
+  cout << x <<"'s Hash value is" << y << endl;
+  string str = "Test";
+  toHex(x);
+  cout << "Testing hash function with string #1" << endl;
   x = hash(str);
   std::cout << x << std::endl;
   return 0;
