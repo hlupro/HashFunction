@@ -17,7 +17,7 @@ int main()
   y = hash(x);
   cout << x <<"'s Hash value is " << y << endl;
   toHex(x);
-  x = 9992939291919;
+  x = 82992939291919;
   y = hash(x);
   cout << x <<"'s Hash value is " << y << endl;
   toHex(x);
