@@ -5,9 +5,9 @@ int main()
 {
   size_t x = 5;
   x = hash(x);
-  std::cout <<  x << std::endl;
+  cout <<  x << endl;
   toHex(x);
-  std::string str = "Test";
+  string str = "Test";
   x = hash(str);
   return 0;
 }

@@ -25,17 +25,17 @@ void toHex(size_t x)
   std::cout << "0x" << std::hex << x << std::endl;
 }
 
-size_t hash(std::string str)
+size_t hash(string str)
 {
   int sum = 0;
   int size = str.length();
   for (int i = 0; i < size; i++)
   {
     int h = str[i];
-    std::cout << h << std::endl;
+    cout << h << endl;
     sum = sum + h;
-    std::cout << sum << std::endl;
+    cout << sum << endl;
   }
-  std::cout << sum << std::endl;
+  cout << sum << endl;
   //hash(int)
 }
