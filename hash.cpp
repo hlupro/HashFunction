@@ -35,5 +35,5 @@ size_t hash(std::string str)
     std::cout << h << std::endl;
   }
   std::cout << sum << std::endl;
-  hash(int)
+  //hash(int)
 }
