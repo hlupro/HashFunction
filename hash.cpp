@@ -27,6 +27,13 @@ void toHex(size_t x)
 
 size_t hash(std::string str)
 {
+  size_t x = 0;
   int size = str.length();
-  std::cout << size << std::endl;
+  char ch;
+  for (int i = 0; i < size; i++)
+  {
+    char = str.at(i);
+    x = x + (size_t)ch;
+  }
+  std::cout << x << std::endl;
 }
