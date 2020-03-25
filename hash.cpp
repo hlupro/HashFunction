@@ -33,8 +33,8 @@ size_t hash(std::string str)
   for (int i = 0; i < size; i++)
   {
     ch = str.at(i);
-    int(ch);
-    x = x + size_t(ch);
+    int y = int(ch);
+    x = x + size_t(y);
   }
   std::cout << x << std::endl;
 }
