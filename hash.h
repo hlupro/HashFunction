@@ -3,5 +3,8 @@
 
 #include <iostream>
 
-size_t hash(size_t);
+size_t hash(size_t x);
+
+
+
 #endif
