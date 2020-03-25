@@ -6,6 +6,7 @@
 #include <string>
 
 size_t hash(size_t x);
+size_t hash(std::string str);
 void toHex(size_t x);
 
 

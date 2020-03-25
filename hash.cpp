@@ -24,3 +24,9 @@ void toHex(size_t x)
 {
   std::cout << "0x" << std::hex << x << std::endl;
 }
+
+size_t hash(std::string str)
+{
+  size = str.legnth();
+  std::cout << size << std::endl;
+}
