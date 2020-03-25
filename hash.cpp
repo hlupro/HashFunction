@@ -35,5 +35,4 @@ size_t hash(std::string str)
     sum += str[i];
   }
   std::cout << sum << std::endl;
-  size_t
 }
