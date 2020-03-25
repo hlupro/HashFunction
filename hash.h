@@ -5,6 +5,7 @@
 #include <iomanip>
 #include <string>
 using namespace std;
+std::dec;
 
 size_t hash(size_t x);
 size_t hash(string str);
