@@ -19,3 +19,8 @@ size_t hash(size_t x)
   size_t hash = axModW >> (w-p);
   return hash;
 }
+
+void toHex(size_t x)
+{
+  std::cout << "0x" << std::hex << x << std::endl;
+}
