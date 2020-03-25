@@ -37,5 +37,5 @@ size_t hash(string str)
     cout << sum << endl;
   }
   cout << std::dec << sum << endl;
-  //hash(int)
+  return (size_t)sum;
 }
