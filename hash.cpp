@@ -34,6 +34,7 @@ size_t hash(std::string str)
   {
     ch = str.at(i);
     x = x + int(ch);
+    std::cout << x << std::endl;
   }
   std::cout << x << std::endl;
 }
