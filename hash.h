@@ -4,7 +4,7 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
-using std namespace;
+using namespace std;
 
 size_t hash(size_t x);
 size_t hash(string str);
