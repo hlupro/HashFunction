@@ -27,6 +27,6 @@ void toHex(size_t x)
 
 size_t hash(std::string str)
 {
-  size = str.legnth();
+  size = str.length();
   std::cout << size << std::endl;
 }
