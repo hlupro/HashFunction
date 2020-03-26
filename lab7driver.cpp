@@ -5,26 +5,26 @@ int main()
   cout << "=================Lab 7========================= " << endl;
   cout << "Testing Hash functions" << endl;
 
-  cout << "Hashing the number 5" << endl;
+  cout << "\nHashing the number 5" << endl;
   size_t x = 5;
   size_t y = hash(x);
   cout << x <<"'s Hash value is " << y << endl;
   toHex(x);
 
-  cout << "Hashing the number 350" << endl;
+  cout << "\nHashing the number 350" << endl;
   x = 350;
   y = hash(x);
   cout << x <<"'s Hash value is " << y << endl;
   toHex(x);
 
   x = 658438232;
-  cout << "Hashing the number " << x << endl;
+  cout << "\nHashing the number " << x << endl;
   y = hash(x);
   cout << x <<"'s Hash value is " << y << endl;
   toHex(x);
 
   x = 82992939291919;
-  cout << "Hashing the number " << x << endl;
+  cout << "\nHashing the number " << x << endl;
   y = hash(x);
   cout << x <<"'s Hash value is " << y << endl;
   toHex(x);
