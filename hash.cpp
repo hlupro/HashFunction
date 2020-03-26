@@ -36,3 +36,14 @@ size_t hash(string str)
   }
   return hash(sum);
 }
+
+size_t hash2(string str)
+{
+  size_t sum = 0;
+  int size = str.length();
+  for (int i = 0; i < size; i++)
+  {
+    sum += (str[i] * i);
+  }
+  return hash(sum);
+}

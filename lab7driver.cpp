@@ -23,10 +23,10 @@ int main()
   toHex(x);
   cout << "Testing hash function with string #1" << endl;
   string str = "Test";
-  x = hash(str);
+  x = hash2(str);
   std::cout << x << std::endl;
   str = "estT";
-  x = hash(str);
+  x = hash2(str);
   std::cout << x << std::endl;
   return 0;
 }

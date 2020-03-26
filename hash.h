@@ -9,6 +9,7 @@ using namespace std;
 
 size_t hash(size_t x);
 size_t hash(string str);
+size_t hash2(string str);
 void toHex(size_t x);
 
 
