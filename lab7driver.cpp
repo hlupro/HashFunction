@@ -31,11 +31,11 @@ int main()
   cout << "\nTesting hash function with string #2" << endl;
   str = "Test";
   x = hash2(str);
-  std::cout << str << "s hash value is "<< x << std::endl;
+  std::cout << str << "'s hash value is "<< x << std::endl;
   toHex(str);
   str = "Hashing is cool!";
   x = hash(str);
-  std::cout << str << "s hash value is "<< x << std::endl;
+  std::cout << str << "'s hash value is "<< x << std::endl;
   toHex(str);
   return 0;
 }
