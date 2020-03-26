@@ -28,7 +28,6 @@ void toHex(size_t x)
 
 size_t hash(string str)
 {
-
   size_t sum = 0;
   int size = str.length();
   for (int i = 0; i < size; i++)

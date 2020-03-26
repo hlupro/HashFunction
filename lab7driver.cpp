@@ -25,5 +25,8 @@ int main()
   string str = "Test";
   x = hash(str);
   std::cout << x << std::endl;
+  str = "estT";
+  x = hash(str);
+  std::cout << x << std::endl;
   return 0;
 }
