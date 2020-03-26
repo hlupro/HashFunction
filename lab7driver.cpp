@@ -31,7 +31,7 @@ int main()
 
   cout << "\nTesting hash function with string #1" << endl;
   string str = "Test";
-  x = hash2(str);
+  x = hash(str);
   std::cout << str << "'s hash value is "<< x << std::endl;
   toHex(str);
 
@@ -47,7 +47,7 @@ int main()
   toHex(str);
 
   str = "Hashing is cool!";
-  x = hash(str);
+  x = hash2(str);
   std::cout << str << "'s hash value is "<< x << std::endl;
   toHex(str);
   return 0;
