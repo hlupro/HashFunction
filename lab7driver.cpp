@@ -21,12 +21,21 @@ int main()
   y = hash(x);
   cout << x <<"'s Hash value is " << y << endl;
   toHex(x);
-  cout << "Testing hash function with string #1" << endl;
+  cout << "\nTesting hash function with string #1" << endl;
   string str = "Test";
   x = hash2(str);
   std::cout << x << std::endl;
-  str = "estT";
-  x = hash2(str);
+  str = "Hashing is cool!";
+  x = hash(str);
   std::cout << x << std::endl;
+  cout << "\nTesting hash function with string #2" << endl;
+  str = "Test";
+  x = hash2(str);
+  std::cout << str << "s hash value is "<< x << std::endl;
+  toHex(str);
+  str = "Hashing is cool!";
+  x = hash(str);
+  std::cout << str << "s hash value is "<< x << std::endl;
+  toHex(str);
   return 0;
 }

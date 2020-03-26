@@ -26,6 +26,12 @@ void toHex(size_t x)
   std::cout << "0x" << std::hex << hash(x) << std::dec << std::endl;
 }
 
+void toHex(string str)
+{
+  cout << str << "'s hash value in hex is ";
+  std::cout << "0x" << std::hex << hash(str) << std::dec << std::endl;
+}
+
 size_t hash(string str)
 {
   size_t sum = 0;
